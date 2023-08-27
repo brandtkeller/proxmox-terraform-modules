@@ -11,3 +11,6 @@ Feel free to use the provided [update script](./update.sh) from your proxmox hos
 
 ### dev-node
 When consuming this module - there is currently an expectation that a local `bootstrap.sh` is copied from the host executing the terraform to the target nodes. 
+
+## Examples
+- [dev-node](./examples/DEV-NODE.md)
