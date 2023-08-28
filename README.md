@@ -2,6 +2,10 @@
 
 Looking to abstract and host some terraform modules I use for my home Proxmox cluster.
 
+## Goals
+- Limit required external network traffic
+    - Modules for kubernetes will likely focus on model around downloading the binary & airgap images once to the terraform execution host and then copying those to each VM created.   
+
 ## Cloud-Init
 The VM image used for these modules is an Ubuntu cloudimg that has been configured for cloud-init on proxmox.
 
