@@ -1,5 +1,11 @@
 # Dev Node Example
 
+```
+├── bootstrap.sh
+├── main.tf
+├── variables.tf
+```
+
 `main.tf`
 ```
 terraform {
